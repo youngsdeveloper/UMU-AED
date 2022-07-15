@@ -1,5 +1,5 @@
-a.out: principal.o Producto.o DiccionarioProductos.o Interprete.o TablaHash.o Par.o Nodo.o Arbol.o Utils.o
-	g++	principal.o	Producto.o DiccionarioProductos.o Interprete.o TablaHash.o Par.o Nodo.o Arbol.o Utils.o
+FastMarket: principal.o Producto.o DiccionarioProductos.o Interprete.o TablaHash.o Par.o Nodo.o Arbol.o Utils.o
+	g++ -o FastMarket principal.o	Producto.o DiccionarioProductos.o Interprete.o TablaHash.o Par.o Nodo.o Arbol.o Utils.o
 
 Interprete.o: Interprete.cpp Interprete.h Producto.h DiccionarioProductos.h 
 	g++ -c Interprete.cpp
