@@ -88,6 +88,6 @@ Finalmente, estos son los resultados obtenidos.
 | Buscar por palabras       | O(1)                |
 | Buscar por precios        | O(log n)            |
 
-Hemos hecho tambien experimentación real de como es la dispersión en las tablas de HASH, obteniendo estadisticas sobre como se estaban utilizando para minimizar eñ tiempo de ejecución promedio.
+Hemos hecho tambien experimentación real de como es la dispersión en las tablas de HASH, obteniendo estadisticas sobre como se estaban utilizando para minimizar el tiempo de ejecución promedio.
 
 ![diagrama de clases](./docs/images/screen_1.png) 
